@@ -10,7 +10,7 @@ int getMax(int n)
     int maxX = arr[0]; 
     for (int i = 1; i < n; i++) 
         if (arr[i] > maxX) 
-            maxX = arr[i]; 
+            maxX = arr[i];
     return maxX; 
 } 
 
